@@ -1,12 +1,13 @@
 <h1>Dashboard</h1>
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="badge"><%= @num_of_category%></span>
-    The amount of categories
-  </li>
-  <li class="list-group-item">
-    <span class="badge"> <%= link_to @num_of_products, [:admin, :products] %> </span>
-    The amount of products
-  </li>
-</ul>
 
+<div class="panel panel-default products"> 
+    <dl class="dl-horizontal">
+      <br/>
+      <dt>Total products:</dt> 
+      <dd> <%= link_to @num_of_products, :admin_products %></dd>
+
+      <br/>
+      <dt>Total categories:</dt> 
+      <dd><%= @num_of_category %></dd>
+    </dl>
+  </div>
