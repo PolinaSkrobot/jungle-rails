@@ -45,6 +45,7 @@ group :development, :test do
   gem 'byebug'
   gem 'quiet_assets'
   gem 'dotenv-rails'
+  gem 'phantomjs', :require => 'phantomjs/poltergeist' 
 end
 
 group :development do
