@@ -2,13 +2,12 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
-## Additional Steps for Apple M1 Machines
-
-1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
-1. Install ImageMagick `brew install imagemagick imagemagick@6 --build-from-source`
-2. Remove Gemfile.lock
-3. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile)
-
+## Home page 
+!["Screenshot of URLs main page"]()
+## Home page 
+!["Screenshot of URLs order page"]()
+## Home page 
+!["Screenshot of URLs admin authorization fearure"]()
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -31,3 +30,17 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+* Sass-rails, ~> 5.0
+* Jquery-rails
+* Jbuilder, ~> 2.0
+* Bcrypt, ~> 3.1.7
+* puma
+* bootstrap-sass, ~> 3.3.6
+* font-awesome-rail
+* money-rails
+* carrierwave
+* rmagick
+* faker
+* rspec-rails, ~> 3.5
+* capybara
+
