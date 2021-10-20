@@ -1,13 +1,14 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2. 
+
 
 ## Home page 
-!["Screenshot of URLs main page"]()
-## Home page 
-!["Screenshot of URLs order page"]()
-## Home page 
-!["Screenshot of URLs admin authorization fearure"]()
+!["Screenshot of URLs main page"](https://github.com/PolinaSkrobot/jungle-rails/blob/master/public/main_page.jpeg)
+## Order confirmation page
+!["Screenshot of URLs order page"](https://github.com/PolinaSkrobot/jungle-rails/blob/master/public/order.jpeg)
+## Admin authorization with using HTTP Basic Auth 
+!["Screenshot of URLs admin authorization fearure"](https://github.com/PolinaSkrobot/jungle-rails/blob/master/public/Admin-authorization.jpeg)
 ## Setup
 
 1. Run `bundle install` to install dependencies
